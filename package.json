@@ -1,0 +1,30 @@
+{
+	"$schema": "https://www.schemastore.org/package",
+	"type": "module",
+	"sideEffects": false,
+	"devEngines": {
+		"packageManager": {
+			"name": "pnpm",
+			"version": "12.10.1",
+			"onFail": "download"
+		},
+		"runtime": [
+			{
+				"name": "bun",
+				"version": "1.4",
+				"onFail": "download"
+			},
+			{
+				"name": "deno",
+				"version": "2",
+				"onFail": "download"
+			},
+			{
+				"name": "node",
+				"version": "24",
+				"onFail": "download"
+			}
+		]
+	},
+	"packageManager": "pnpm@12.10.1"
+}
